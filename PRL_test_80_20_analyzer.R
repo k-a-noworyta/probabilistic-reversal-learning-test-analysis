@@ -2,7 +2,7 @@
 print(paste(format(Sys.time(), "%H:%M:%S"), "work start."))
 
 # searching data 
-print(paste ("searching raw data"))
+print(paste ("searching data file"))
 
 the.files <- as.character(list.files(".", pattern="([!])"))
 
